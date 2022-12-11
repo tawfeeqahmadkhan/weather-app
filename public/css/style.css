@@ -1,0 +1,213 @@
+html{
+	padding:0%;
+	margin:0%;
+	font-size=62.5%;
+ 
+}
+.navber{
+	background-color:gray;
+	color:white;
+	 font-size:1.5rem;	
+	 height:3rem;
+	 padding-top:0.5rem;
+	 border:0.1rem gray;
+	 border-radius:8rem;
+	 list-style:none;
+	     font-family: chivo,helvetica neue,sans-serif;
+}
+#r-nav{
+	margin-left:2rem;
+		display:flex;
+	    font-family: chivo,helvetica neue,sans-serif;
+}
+#l-nav{ 
+	display:flex;
+	float:left;
+	margin-left:55rem;
+	margin-top:-3.4rem;
+	list-style:none;
+	    font-family: chivo,helvetica neue,sans-serif;
+}
+#l-nav li{
+	margin:1rem;
+	color:#fff;
+    font-size:1.6rem;	
+	list-style:none;
+	    font-family: chivo,helvetica neue,sans-serif;
+}
+.img_slider{
+	width:35rem;
+	height:35rem;
+	display:flex;
+	border:0.1rem solid black;
+	background-image:url("th-3411993382.jpg");
+	margin-left:40rem;
+	border-radius:3rem;
+	background-size:100% 100%;
+	animation: imgslide 25s linear infinite;
+	
+}
+@keyframes imgslide{
+	0%{
+		background-image:url("th-3411993382.jpg");
+	}
+	25%{
+		background-image:url("ww2.webp");
+	}
+	50%{
+		background-image:url("ww3.webp");
+	}
+	75%{
+		background-image:url("img1.webp");
+	}
+	100%{
+		background-image:url("img2.webp");
+	}
+	
+}
+.txt{
+	margin-top:-25rem;
+	padding-left:8rem;
+	    font-family: chivo,helvetica neue,sans-serif;
+	
+}
+#txt_span{
+	color:red;
+}
+#btn1{
+	margin-left:8rem;
+	margin-top:5rem;
+	
+	
+}
+.about_img{
+	width:35rem;
+	height:35rem;
+	display:flex;
+	border:0.1rem #fff;
+	background-image:url("th-2449323742.jpg");
+	margin-left:40rem;
+	border-radius:3rem;
+	background-size:100% 100%;
+
+}
+.about_me{
+	margin-top:-25rem;
+	padding-left:8rem;
+	    font-family: chivo,helvetica neue,sans-serif;
+		font-size:2rem;
+}
+.about_me i{
+	color:gray;
+	
+	
+}
+.main_cont{
+	margin:auto;
+	padding-left:27rem;
+	margin-top:5rem;
+	
+}
+#cityname{
+	color:white;
+	padding-right:22rem;
+    border:.01rem solid black;
+	padding-top:.4rem;
+	padding-bottom:.4rem;
+	border-radius:3rem;
+	padding-left:.5rem;
+	background-color:#32373c;
+	
+}
+#searchbtn{
+	bolder:.1rem #8080dd;
+	border-radius:1rem;
+	margin-left:-4.2rem;
+	color:white;
+	background-color:#8080dd;
+	
+}
+.firt_layer{
+	background-color:#01060a;
+	width:38%;
+	margin-top:5rem;
+	margin-left:6rem;
+	border-radius:1rem;
+}
+.top_layer{
+	color:white;
+	margin:.3rem;
+	background-color:#2b2f32;
+	padding-top:.3rem;
+	border-radius:4rem;
+	
+	
+}
+#day{
+	
+	padding-left:.5em;
+	
+}
+#date_month{
+	display:flex;
+	padding-left:16rem;
+	margin-top:-2.5rem;
+	
+}
+.last_layer{
+	
+padding-bottom:5rem;
+}
+#city_name{
+	padding-left:0.7rem;
+	padding-top:1rem;
+	color:white;
+}
+#temp_logo{
+	padding-left:14rem;
+	margin-top:-4rem;
+	display:flex;
+	color:white;
+	font-size:2REM;
+	font-size:2REM;
+}
+#weather_report{
+	padding-top:3rem;
+	padding-left:2rem;
+	color:white;
+	font-size:2rem;
+	font-family:"Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	
+	
+}
+#c{
+	display:flex;
+	color:white;
+	margin-left:4rem;
+	margin-top:-4rem;
+	font-size:2rem;
+	
+}
+#c sup{
+	padding-bottom:0%;
+}
+#sss{
+	
+	display:flex;
+	margin-left:8rem;
+	margin-top:-4rem;
+	color:#fff;
+	font-size:2rem;
+}
+
+@media (max-width:998px){
+	
+	html{
+		font-size: 55%;
+	}
+}
+@media (max-width:767px){
+	html{
+		font-size: 25%;
+	}
+}
